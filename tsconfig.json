@@ -1,0 +1,43 @@
+
+
+
+{
+     "compilerOptions": {
+         "jsx": "react",
+         "moduleResolution": "node",
+         "strict": true,
+         "skipLibCheck": true,
+         "forceConsistentCasingInFileNames": true,
+         "downlevelIteration": true,
+         "target": "ES2015",
+         "module": "commonjs",
+         "esModuleInterop": true,
+         "outDir": "./dist",
+         "rootDir": "./src",
+         "sourceMap": true,
+         "allowSyntheticDefaultImports": true,
+
+
+
+
+      "noFallthroughCasesInSwitch": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+    //   "noEmit": true,
+      // "jsx": "react-jsx"
+     },
+    //  "include": ["src/**/*.ts", "src/components/htmlToJSX/index.tsx", "src/components/contextMenu.tsx", "src/chrome-services/content.ts"],
+    "include": ["src/**/*"],
+    "exclude": ["node_modules", "dist"]
+ }
+
+//  {
+//   "compilerOptions": {
+//     "target": "es5",
+//     "module": "commonjs",
+//     "strict": true,
+//     "jsx": "react",
+//     "esModuleInterop": true
+//   },
+//   "include": ["src/**/*"]
+// }
